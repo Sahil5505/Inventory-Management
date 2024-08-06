@@ -19,3 +19,16 @@ body,
   @apply bg-gray-500;
   @apply text-gray-900;
 } 
+
+@media (min-width: 760px) {
+  .custom-grid-rows {
+    grid-template-rows: repeat(a, 20vh); 
+  }
+}
+
+@media (min-width:1200px) {
+  .custom-grid-rows {
+    grid-template-rows: repeat(8, .5vh);
+  }
+
+}
